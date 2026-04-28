@@ -1,8 +1,9 @@
 package org.example;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 class CalculatorTest {
     private Calculator calculator;
     @BeforeEach
@@ -43,5 +44,9 @@ class CalculatorTest {
     @DisplayName("Raising a number to a power returns the correct result")
     void powerReturnsCorrectResult() {
         assertEquals(8.0, calculator.power(2, 3));
+    }
+
+    void mamahuevo(){
+        
     }
 }
