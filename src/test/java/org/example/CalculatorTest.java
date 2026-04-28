@@ -1,10 +1,8 @@
-CalculatorTest.java
-        package org.example;
+package org.example;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-3
 class CalculatorTest {
     private Calculator calculator;
     @BeforeEach

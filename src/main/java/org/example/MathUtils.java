@@ -1,4 +1,3 @@
-MathUtils.java
 package org.example;
 /**
  * Auxiliary math utilities.
